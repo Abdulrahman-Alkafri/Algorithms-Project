@@ -5,8 +5,6 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -30,17 +28,8 @@ public class Main {
         }
     } catch (IOException e) {
     }
-
-//    Generic.printGenericTree(root);
-//    System.out.println("********");
-//    System.out.println("Binary Tree Pre-Order: ");
     Node binaryRoot = Generic.genericToBinary(root);
-//    Generic.PrintBinaryTree(binaryRoot);
-//    System.out.println();
-//    System.out.println("********");
-    Node generalRoot = Generic.binaryToGeneric(binaryRoot);
-//    Generic.printGenericTree(generalRoot);
-    
+    Node generalRoot = Generic.binaryToGeneric(binaryRoot);    
       writeOutputToFile(generalRoot, "outputTree.txt");
     writeBinaryTreeToFile(binaryRoot, "outputBinary.txt");
 }

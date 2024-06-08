@@ -1,18 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.visual;
-
 import java.util.*;
-
-/**
- *
- * @author ABDALRHMAN
- */
-/*
-// Definition for a Node.
-*/
 class Generic {
     
     public static Node genericToBinary(Node root) {
